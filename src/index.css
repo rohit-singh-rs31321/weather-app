@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-xxs {
+    font-size: 10px;
+}
+Body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.app {
+    background-image: url('./assets/cold.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+}
+
+.app.warm {
+    background-image: url('./assets/warm.jpg');
+    
+    transition: 0.4 ease;
+}
